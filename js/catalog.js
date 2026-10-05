@@ -59,10 +59,16 @@
         "</a>"
       );
     }).join("");
+    var missionHref = "zaszyfrowana-kapsula/index.html?lang=" + lang;
     stage.innerHTML =
       '<section class="screen">' +
         "<h1>" + esc(copy.title) + "</h1>" +
         '<p class="lead">' + esc(copy.lead) + "</p>" +
+        '<a class="mission-banner" href="' + esc(missionHref) + '">' +
+          '<span class="card-meta">' + esc(copy.missionEyebrow) + "</span>" +
+          "<strong>🕵️ " + esc(copy.missionTitle) + "</strong>" +
+          '<span class="card-meta">' + esc(copy.missionMeta) + "</span>" +
+        "</a>" +
         '<div class="grid">' + cards + "</div>" +
       "</section>";
   }

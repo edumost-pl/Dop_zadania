@@ -11,6 +11,9 @@ window.DOP_I18N = {
     oneTask: "1 zadanie",
     manyTasks: "zadania",
     empty: "Tu jeszcze nie ma zadań.",
+    missionEyebrow: "Misja dnia",
+    missionTitle: "Zaszyfrowana kapsuła",
+    missionMeta: "Tajemnica podróży w czasie",
     subjects: [
       { id: "matematyka", icon: "🔢", name: "Matematyka" },
       { id: "polski", icon: "📖", name: "Język polski" },
@@ -36,6 +39,9 @@ window.DOP_I18N = {
     oneTask: "1 задание",
     manyTasks: "задания",
     empty: "Здесь пока нет заданий.",
+    missionEyebrow: "Миссия дня",
+    missionTitle: "Зашифрованная капсула",
+    missionMeta: "Тайна путешествия во времени",
     subjects: [
       { id: "matematyka", icon: "🔢", name: "Математика" },
       { id: "polski", icon: "📖", name: "Польский язык" },

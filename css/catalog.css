@@ -211,6 +211,24 @@ a:focus-visible {
   .open { margin-top: 0; }
 }
 
+.mission-banner {
+  display: grid;
+  gap: 4px;
+  margin: 0 0 16px;
+  padding: 16px 18px;
+  color: var(--text);
+  text-decoration: none;
+  background: var(--paper);
+  border-radius: 18px;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.22);
+}
+
+.mission-banner strong {
+  font-family: var(--display);
+  font-size: clamp(1.35rem, 4vw, 1.8rem);
+  line-height: 1.15;
+}
+
 .screen { animation: rise 0.35s ease; }
 
 @keyframes rise {

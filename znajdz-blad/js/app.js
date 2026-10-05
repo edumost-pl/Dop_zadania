@@ -55,6 +55,7 @@
     try {
       localStorage.setItem(LANG_KEY, state.lang);
       localStorage.setItem("dop-zadania-lang", state.lang);
+      if (state.screen === 5) localStorage.setItem("znajdz-blad-finished", "1");
       localStorage.setItem(STATE_KEY, JSON.stringify({
         screen: state.screen,
         cards: state.cards,
@@ -250,6 +251,9 @@
           "</div>" +
         "</div>" +
         '<div class="actions">' +
+          (new URLSearchParams(location.search).get("from") === "kapsula"
+            ? '<a class="btn" href="../zaszyfrowana-kapsula/index.html?lang=' + state.lang + '">' + esc(copy.capsuleBack) + "</a>"
+            : "") +
           '<button type="button" class="btn" data-action="retry">' + esc(copy.s6btn) + "</button>" +
         "</div>" +
       "</section>"

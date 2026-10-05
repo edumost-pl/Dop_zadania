@@ -64,6 +64,7 @@ window.ZB_I18N = {
     s6p3: "Ćwiczyłeś coś ważniejszego:",
     s6key: "znajdowanie miejsca, w którym pojawia się błąd.",
     s6btn: "🔄 SPRÓBUJ JESZCZE RAZ",
+    capsuleBack: "← Wróć do kapsuły",
 
     cards: [
       { id: "units", title: "JEDNOŚCI", hint: "Pierwszy krok: cyfra jedności" },
@@ -139,6 +140,7 @@ window.ZB_I18N = {
     s6p3: "Ты тренировал кое-что важнее:",
     s6key: "находить место, где появляется ошибка.",
     s6btn: "🔄 ПОПРОБОВАТЬ ЕЩЁ РАЗ",
+    capsuleBack: "← Вернуться к капсуле",
 
     cards: [
       { id: "units", title: "ЕДИНИЦЫ", hint: "Первый шаг: цифра единиц" },
